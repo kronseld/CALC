@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.naviMenu {
+    display: flex;
+    flex-direction: row;
+    gap:  50px;
+}
+
+.h1 {
+    color: rgb(130,191,171);
+}

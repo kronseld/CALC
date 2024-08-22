@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "6640a29f13e75c27bc19f123"
+  },
+  "description": "Калькулятор ипотеки",
+  "var1": "Стоимость недвижимости",
+  "var2": "Первоначальный взнос",
+  "var3": "Срок кредита",
+  "var4": "Кредитная ставка",
+  "result1_name": "Сумма кредита",
+  "result1_formula": "var1-var2",
+  "result2_name": "Общая ставка",
+  "result2_formula": "Math.pow(1+const1/12/100, var3*12)",
+  "result3_name": "Ежемесячный платеж",
+  "result3_formula": "(var1-var2)*(const1/12/100)*Math.pow(1+const1/12/100, var3*12)/(Math.pow(1+const1/12/100, var3*12)-1)",
+  " result4_name": "Необходимый доход",
+  "result4_formula": "((var1-var2)*(const1/12/100)*Math.pow(1+const1/12/100, var3*12)/(Math.pow(1+const1/12/100, var3*12)-1))*2.5"
+},
+
+{
+  "_id": {
+    "$oid": "6940a29a13e75c27bc19f675"
+  },
+  "description": "Калькулятор автокредита",
+  "var1": "Стоимость автомобиля",
+  "var2": "Первоначальный взнос",
+  "var3": "Срок кредита",
+  "var4": "Кредитная ставка",
+  "result1_name": "Сумма кредита",
+  "result1_formula": "var1-var2",
+  "result2_name": "Общая ставка",
+  "result2_formula": "Math.pow(1+const1/12/100, var3*12)",
+  "result3_name": "Ежемесячный платеж",
+  "result3_formula": "(var1-var2)*(const1/12/100)*Math.pow(1+const1/12/100, var3*12)/(Math.pow(1+const1/12/100, var3*12)-1)",
+  " result4_name": "Необходимый доход",
+  "result4_formula": "((var1-var2)*(const1/12/100)*Math.pow(1+const1/12/100, var3*12)/(Math.pow(1+const1/12/100, var3*12)-1))*2.5"
+},
+
+{
+  "_id": {
+    "$oid": "1560a29a23e75c33bc19f555"
+  },
+  "description": "Калькулятор потребкредита",
+  "var1": "Стоимость товара",
+  "var2": "Первоначальный взнос",
+  "var3": "Срок кредита",
+  "var4": "Кредитная ставка",
+  "result1_name": "Сумма кредита",
+  "result1_formula": "var1-var2",
+  "result2_name": "Общая ставка",
+  "result2_formula": "Math.pow(1+const1/12/100, var3*12)",
+  "result3_name": "Ежемесячный платеж",
+  "result3_formula": "(var1-var2)*(const1/12/100)*Math.pow(1+const1/12/100, var3*12)/(Math.pow(1+const1/12/100, var3*12)-1)",
+  " result4_name": "Необходимый доход",
+  "result4_formula": "((var1-var2)*(const1/12/100)*Math.pow(1+const1/12/100, var3*12)/(Math.pow(1+const1/12/100, var3*12)-1))*2.5"
+}
+
+]
